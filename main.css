@@ -1,4 +1,46 @@
 body {
-	background:lightblue;
+	background:#999;
 	font-family: monospace;
+	text-decoration-color: darkred;
+	font-size: larger;
+	color: darkblue;
+	display: inline-block;
+	list-style-type: none;
+	font-family: sans-serif;
+}
+h1 {
+	margin: 0;
+	padding: 10px 10px;
+	font-family: sans-serif;
+	display: inline-block;
+	background-color: black;
+
+}
+footer {
+	font-family: sans-serif;
+}
+ul {
+	display: inline-block;
+	list-style-type: none;
+	background-color: black;
+	padding: 15px 15px;
+	font-size: x-large;
+}
+a {
+	color: white;
+}
+footer {	
+	list-style-type: none;
+	background-color: black;
+	padding: 0 0 0 0;
+	font-size: x-large;
+	margin: 0;
+	clear: both;
+}
+.col {
+	float: left;
+	background: #333;
+	display: inline-block;
+	margin: 5px;
+	padding: 20px;
 }
